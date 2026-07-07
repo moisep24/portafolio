@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Profesional | Moisés Pascual</title>
+    <!-- Tailwind CSS Oficial CDN para mantener el diseño premium de la plantilla -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="css/portafolio.css">
+</head>
+
+<body class="bg-white dark:bg-black text-slate-900 dark:text-slate-50 font-sans antialiased">
+    <!-- Navbar / Menú de Navegación -->
+    <nav id="navbar" class="flex items-center justify-between fixed z-50 top-0 w-full px-6 md:px-16 lg:px-24 xl:px-32 py-4 backdrop-blur bg-white/70 dark:bg-black/40 border-b border-slate-200 dark:border-slate-800">
+        <a href="#inicio" class="text-xl font-bold bg-gradient-to-r from-[#923FEF] to-[#C35DE8] bg-clip-text text-transparent">
+            Moisés.Dev
+        </a>
+
+        <!-- Enlaces requeridos por la rúbrica -->
+        <div class="hidden items-center md:gap-8 lg:gap-12 md:flex lg:pl-20">
+            <a href="#inicio" class="hover:text-purple-600 dark:hover:text-purple-400 transition">Inicio</a>
+            <a href="#sobremi" class="hover:text-purple-600 dark:hover:text-purple-400 transition">Sobre Mí</a>
+            <a href="#skills" class="hover:text-purple-600 dark:hover:text-purple-400 transition">Habilidades</a>
+            <a href="#proyectos" class="hover:text-purple-600 dark:hover:text-purple-400 transition">Proyectos</a>
+        </div>
+
+        <div class="flex items-center gap-4">
+            <a href="#proyectos" class="px-4 py-2 bg-purple-600 hover:bg-purple-700 transition text-white rounded-md text-sm font-medium">
+                Ver Proyectos
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section / Inicio -->
+    <div id="inicio" class="flex flex-col items-center justify-center text-center px-4 pt-32 pb-20 bg-no-repeat bg-cover">
+        
+        <!-- Foto de perfil real y profesional exigida por la rúbrica -->
+        <div class="size-36 md:size-44 rounded-full overflow-hidden border-4 border-purple-600 shadow-2xl bg-slate-200">
+            <img class="w-full h-full object-cover" src="img/fotoperfil.jpeg" alt="Moisés Pascual Coyolt" />
+        </div>
+            
+        <div class="flex flex-wrap items-center justify-center gap-3 p-1.5 pr-4 mt-6 rounded-full border border-slate-300 dark:border-slate-600 bg-white/70 dark:bg-slate-600/20">
+            <span class="flex h-2 w-2 rounded-full bg-emerald-500"></span>
+            <p class="text-xs font-medium text-slate-600 dark:text-slate-300">Futuro Ingeniero en Sistemas</p>
+        </div>
+
+        <h1 class="mt-4 text-4xl md:text-[64px]/19 font-semibold max-w-3xl tracking-tight">
+            Hola, soy 
+            <span class="bg-gradient-to-r from-[#923FEF] dark:from-[#C99DFF] to-[#C35DE8] dark:to-[#E1C9FF] bg-clip-text text-transparent">Moisés Pascual Coyolt</span>
+        </h1>
+        
+        <p class="text-base dark:text-slate-300 max-w-xl mt-4 leading-relaxed">
+            Estudiante de Ingeniería en Sistemas Computacionales en el TecNM. Enfocado en el desarrollo de soluciones web, administración de infraestructura de redes y gestión de bases de datos de alta disponibilidad.
+        </p>
+
+        <div class="flex items-center gap-4 mt-8">
+            <a href="#sobremi" class="bg-purple-600 hover:bg-purple-700 transition text-white rounded-md px-6 py-3 font-medium text-sm shadow-md">
+                Conóceme más
+            </a>
+        </div>
+    </div>
+
+    <!-- Sobre Mí Section (Requisito Rúbrica) -->
+    <div id="sobremi" class="bg-slate-50 dark:bg-slate-950 py-20 border-t border-b border-slate-200 dark:border-slate-800">
+        <div class="max-w-3xl mx-auto px-6 text-center space-y-4">
+            <h2 class="text-3xl font-bold tracking-tight">Sobre Mí</h2>
+            <div class="h-1 w-12 bg-purple-600 mx-auto rounded"></div>
+            <p class="text-slate-600 dark:text-slate-300 text-justify md:text-center text-base leading-relaxed pt-2">
+                Actualmente curso la carrera de Ingeniería en Sistemas Computacionales en el Instituto Tecnológico Nacional de México (TecNM). Me apasiona aplicar la lógica de ingeniería para construir software eficiente, modular y escalable. A lo largo de mi formación, he consolidado fuertes bases en el control de versiones con Git, documentación técnica estructurada y la arquitectura de sistemas dinámicos.
+            </p>
+        </div>
+    </div>
+
+    <!-- Features / Habilidades Section -->
+    <div id="skills" class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="text-center space-y-2">
+            <p class="font-medium text-purple-600 dark:text-purple-400 text-sm tracking-wider uppercase">Skills</p>
+            <h2 class="text-3xl font-bold">Especialización Técnica</h2>
+            <p class="mt-2 text-slate-500 dark:text-slate-400 max-w-xl mx-auto text-sm">
+                Tecnologías y herramientas que implemento activamente en mis desarrollos de ingeniería.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
+            <!-- Skill 1 -->
+            <div class="p-6 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm hover:border-purple-500 dark:hover:border-purple-400 transition-colors">
+                <div class="text-2xl mb-3">🌐</div>
+                <h3 class="font-semibold text-lg">Desarrollo Web</h3>
+                <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">Maquetación semántica y lógica dinámica con HTML5, CSS3 y JavaScript nativo.</p>
+            </div>
+            <!-- Skill 2 -->
+            <div class="p-6 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm hover:border-purple-500 dark:hover:border-purple-400 transition-colors">
+                <div class="text-2xl mb-3">💾</div>
+                <h3 class="font-semibold text-lg">Bases de Datos</h3>
+                <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">Diseño y administración de modelos relacionales y no relacionales con PostgreSQL y MongoDB.</p>
+            </div>
+            <!-- Skill 3 -->
+            <div class="p-6 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm hover:border-purple-500 dark:hover:border-purple-400 transition-colors">
+                <div class="text-2xl mb-3">⚡</div>
+                <h3 class="font-semibold text-lg">Redes e Infraestructura</h3>
+                <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">Modelado, enrutamiento y conmutación de topologías complejas mediante Cisco Packet Tracer.</p>
+            </div>
+            <!-- Skill 4 -->
+            <div class="p-6 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm hover:border-purple-500 dark:hover:border-purple-400 transition-colors">
+                <div class="text-2xl mb-3">📄</div>
+                <h3 class="font-semibold text-lg">Versionamiento y Docs</h3>
+                <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">Control de código con Git/GitHub y desarrollo de documentación académica de alta calidad en LaTeX.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Proyectos Section (Adaptado de la sección Pricing para cumplir rúbrica) -->
+    <div id="proyectos" class="bg-slate-50 dark:bg-slate-950 py-20 border-t border-slate-200 dark:border-slate-800">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center space-y-2">
+                <p class="font-medium text-purple-600 dark:text-purple-400 text-sm tracking-wider uppercase">Portafolio</p>
+                <h3 class="text-3xl font-bold">Proyectos Destacados</h3>
+                <p class="text-slate-500 dark:text-slate-400 text-sm max-w-xl mx-auto">Evidencia de desarrollo técnico, ingeniería aplicada e investigaciones avanzadas.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+                <!-- Tarjeta Proyecto 1 -->
+                <div class="flex flex-col bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl overflow-hidden shadow-sm justify-between">
+                    <div class="p-6 space-y-3">
+                        <span class="text-xs font-bold text-purple-600 dark:text-purple-400 uppercase tracking-wider">Desarrollo Frontend</span>
+                        <h4 class="text-xl font-bold">Librería JS de Validación</h4>
+                        <p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">Construcción de un módulo utilitario nativo en JavaScript (`utileria.js`) enfocado en la validación estructurada y segura de formularios web en tiempo real.</p>
+                    </div>
+                    <div class="px-6 py-4 bg-slate-100 dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800 text-xs font-medium text-slate-400">
+                        Entorno: JavaScript / Programación Web
+                    </div>
+                </div>
+
+                <!-- Tarjeta Proyecto 2 -->
+                <div class="flex flex-col bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl overflow-hidden shadow-sm justify-between">
+                    <div class="p-6 space-y-3">
+                        <span class="text-xs font-bold text-purple-600 dark:text-purple-400 uppercase tracking-wider">Arquitectura Cloud</span>
+                        <h4 class="text-xl font-bold">Análisis de Microservicios</h4>
+                        <p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">Investigación integral sobre el flujo de transferencia de datos masivos (Big Data) y la orquestación en la nube para sistemas de alta demanda empresarial.</p>
+                    </div>
+                    <div class="px-6 py-4 bg-slate-100 dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800 text-xs font-medium text-slate-400">
+                        Área: Ingeniería de Software Architecture
+                    </div>
+                </div>
+
+                <div class="flex flex-col bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl overflow-hidden shadow-sm justify-between">
+                 <div class="p-6 space-y-3">
+           <span class="text-xs font-bold text-purple-600 dark:text-purple-400 uppercase tracking-wider">Fullstack NoSQL</span>
+              <h4 class="text-xl font-bold">Sistema Web NoSQL Persistente</h4>
+     <p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">Proyecto enfocado en la interconexión directa de componentes asíncronos web hacia clústeres de MongoDB para la gestión dinámica de datos persistentes.</p>
+                    </div>
+                    <div class="px-6 py-4 bg-slate-100 dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800 text-xs font-medium text-purple-400">
+                        Estado: Planificado / Próximo Desarrollo
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="px-6 md:px-16 lg:px-24 xl:px-32 py-10 w-full bg-white dark:bg-black border-t border-slate-200 dark:border-slate-800 text-sm text-center text-slate-400">
+        <p>Copyright 2026 © Moisés Pascual Coyolt. Todos los derechos reservados.</p>
+        <p class="text-xs text-slate-500 mt-1">Diseño adaptado sobre componentes oficiales de PrebuiltUI.</p>
+    </footer>
+
+    <!-- JS de la plantilla cargando correctamente -->
+    <script src="js/portafolio.js"></script>
+</body>
+
+</html>
