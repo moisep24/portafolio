@@ -1,6 +1,4 @@
-// ==========================================
-// 📱 LÓGICA DEL MENÚ MÓVIL (RESPONSIVE)
-// ==========================================
+
 const openMenu = document.getElementById("openMenu");
 const closeMenu = document.getElementById("closeMenu");
 const mobileMenu = document.getElementById("mobileMenu");
@@ -22,7 +20,7 @@ if (closeMenu && mobileMenu) {
     });
 }
 
-// Cierra el menú al dar clic en cualquier enlace interno
+
 const mobileLinks = mobileMenu ? mobileMenu.querySelectorAll("a") : [];
 mobileLinks.forEach(link => {
     link.addEventListener("click", () => {
@@ -32,12 +30,9 @@ mobileLinks.forEach(link => {
     });
 });
 
-// ==========================================
-// 🌗 TOGGLE DEL MODO OSCURO (THEME)
-// ==========================================
+
 const themeToggle = document.getElementById("themeToggle");
 
-// Cambiar icono y tema de forma dinámica
 if (themeToggle) {
     themeToggle.addEventListener("click", () => {
         document.documentElement.classList.toggle("dark");
