@@ -39,4 +39,4 @@ Este proyecto consiste en el diseño, personalización y despliegue de un portaf
 ---
 
 
-* **Link de descarga de la plantilla original:** [Tailwind Toolbox - Portfolio Template](https://www.tailwindtoolbox.com/templates/portfolio-template)
+* **Link de descarga de la plantilla original:** [Tailwind Toolbox - Portfolio Template](https://prebuiltui.com/react-templates/landing-saas-app-template)
