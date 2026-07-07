@@ -33,7 +33,7 @@ Este proyecto consiste en el diseño, personalización y despliegue de un portaf
 
 ##  Capturas de Pantalla
 
-![Vista Principal](img/captura_inicio.png)
+![Vista Principal](img/capInter.png)
 *(Nota: Más adelante le tomaremos captura a tu pantalla y la guardaremos con este nombre para que se vea aquí).*
 
 ---
